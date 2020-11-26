@@ -1,5 +1,7 @@
 # circleci-find-tag
 
+[![NPM](https://nodei.co/npm/circleci-find-tag.png)](https://nodei.co/npm/circleci-find-tag/)
+
 ## The Problem
 
 CircleCI UI doesn't have an option to find a build by the git tag. 
