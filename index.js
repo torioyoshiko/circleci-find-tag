@@ -45,11 +45,11 @@ const getTags = async () => {
     while (true){
         let results = await getBuildPage(args[2], args[3], 50, offset);
 
-        for (let i = 0; i < results.length; i++){
-            if (results[i].vcs_tag === args[4]){
-                console.log(args[4] + ' -> ' + results[i].build_url);
-                return;
-            }
+        let build = results.find(elem => elem.vcs_tag === args[4])
+
+        if (build !== undefined){
+            console.log(args[4] + ' -> ' + build.build_url);
+            return;
         }
 
         if (results.length < 50){
