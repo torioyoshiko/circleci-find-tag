@@ -10,6 +10,12 @@
     "type": "git",
     "url": "https://github.com/torioyoshiko/circleci-find-tag"
   },
+  "keywords": [
+    "circleCI",
+    "find",
+    "find tag",
+    "circleCI tag"
+  ],
   "bin": "index.js",
   "author": "torioyoshiko",
   "license": "MIT"
