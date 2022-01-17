@@ -1,4 +1,4 @@
-// #!/usr/bin/env node
+#!/usr/bin/env node
 const https = require('https');
 
 const getBuildPage = async (url, token, limit, offset) => {
